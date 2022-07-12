@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Nicks Weather</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+
+        <h1>Weather Dashboard</h1>
+
+        <div id="centering">
+            <aside>
+                <h2>Search for a City:</h2>
+
+                <input id="citySearch" type="text">
+
+                <button id="search">Search</button>
+                <button id="recentArea1">Recent Area 1</button>
+                <button id="recentArea2">Recent Area 2</button>
+                <button id="recentArea3">Recent Area 3</button>
+                <button id="recentArea4">Recent Area 4</button>
+                <button id="recentArea5">Recent Area 5</button>
+                <button id="recentArea6">Recent Area 6</button>
+                <button id="recentArea7">Recent Area 7</button>
+                <button id="recentArea8">Recent Area 8</button>
+
+            </aside>
+
+            <div>
+                <section id="currentCity">
+
+                    <h2 id="currentDateCityName">"Name of City"</h2>
+                    <h2 id="currentDate"></h2>
+
+                    <p>Temp: <span id="currentDateTemp"></span></p>
+
+                    <p>Wind: <span id="currentDateWind"></spanid></p>
+
+                    <p>Humidity: <span id="currentDateHumidity"></span></p>
+
+                    <p>UV Index: <span id="currentDateUVI"></span></p>
+                </section>
+
+                <section>
+
+                    <h3>5-Day Forecast:</h3>
+
+                    <div id="fiveDayForecast">
+
+                        <!-- Tommorows Forecast -->
+                        <div class="forecastDay">
+                            <p id="day1">Tommorows Date</p>
+                            <img id="day1Image" src="" alt="day1WeatherImage">
+                            <p>Temp: <span id="day1Temp"></span></p>
+                            <p>Wind: <span id="day1Wind"></span></p>
+                            <p>Humidity: <span id="day1Humidity"></span></p>
+                        </div>
+
+                        <!-- 2 Days from now Forecast -->
+                        <div class="forecastDay">
+                            <p id="day2">Next Date</p>
+                            <img id="day2Image" src="" alt="day2WeatherImage">
+                            <p>Temp: <span id="day2Temp"></span></p>
+                            <p>Wind: <span id="day2Wind"></span></p>
+                            <p>Humidity: <span id="day2Humidity"></span></p>
+                        </div>
+
+                        <!-- 3 Days from now Forecast -->
+                        <div class="forecastDay">
+                            <p id="day3">Next Date</p>
+                            <img id="day3Image" src="" alt="day3WeatherImage">
+                            <p>Temp: <span id="day3Temp"></span></p>
+                            <p>Wind: <span id="day3Wind"></span></p>
+                            <p>Humidity: <span id="day3Humidity"></span></p>
+                        </div>
+
+                        <!-- 4 Days from now Forecast -->
+                        <div class="forecastDay">
+                            <p id="day4">Next Date</p>
+                            <img id="day4Image" src="" alt="day4WeatherImage">
+                            <p>Temp: <span id="day4Temp"></span></p>
+                            <p>Wind: <span id="day4Wind"></span></p>
+                            <p>Humidity: <span id="day4Humidity"></span></p>
+                        </div>
+
+                        <!-- 5 Days from now Forecast -->
+                        <div class="forecastDay">
+                            <p id="day5">Next Date</p>
+                            <img id="day5Image" src="" alt="day5WeatherImage">
+                            <p>Temp: <span id="day5Temp"></span></p>
+                            <p>Wind: <span id="day5Wind"></span></p>
+                            <p>Humidity: <span id="day5Humidity"></span></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="./assets/script.js"></script>
+
+    </body>
+</html>
