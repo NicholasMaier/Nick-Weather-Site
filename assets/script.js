@@ -119,8 +119,8 @@ let long;
 
 function searchCitysWeather () {
 
-    var requestLatiLong = 'http://api.openweathermap.org/geo/1.0/direct?q=' + citySearch.value + '&limit=5&appid=f426e40706010339d3b27f2fcb5fd479';
-
+    var requestLatiLong = 'https://api.openweathermap.org/geo/1.0/direct?q=' + citySearch.value + '&limit=5&appid=f426e40706010339d3b27f2fcb5fd479';
+    console.log("hello");
     fetch(requestLatiLong)
     .then(function (response) {
       return response.json();
